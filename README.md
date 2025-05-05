@@ -102,19 +102,16 @@ Aprendemos na aula como criar uma máquina virtual no portal do Azure utilizando
 
 ### 🖼️ Prints do Processo (adicione aqui)
 
-1. Tela inicial do Portal do Azure  
-   ![Print 1](./img/print1.png)
+1. Configurações básicas da VM 
+   ![Print 1](./myVM.png)
 
-2. Configuração básica da VM  
-   ![Print 2](./img/print2.png)
+2. Dados VM 
+   ![Print 2](./myVM2.png)
 
-3. Seleção de imagem e tamanho  
-   ![Print 3](./img/print3.png)
+3. Acesso a VM  
+   ![Print 3](./myVM3.png)
 
-4. Revisão e criação  
-   ![Print 4](./img/print4.png)
 
----
 
 
 
