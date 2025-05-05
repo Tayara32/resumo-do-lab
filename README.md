@@ -61,3 +61,61 @@ A computação na nuvem permite flexibilidade e inovação rápida, com diferent
 ## Conclusão
 
 Entender os modelos de nuvem e como os custos são gerenciados (CapEx vs OpEx) é essencial para tomar decisões informadas sobre qual solução de computação em nuvem escolher, dependendo das necessidades da sua organização ou projeto.
+
+## Benefícios da Computação em Nuvem
+
+A computação em nuvem não é só uma buzzword bonita — ela vem cheia de vantagens que fazem a diferença no dia a dia das empresas e profissionais de TI. Aqui vão os principais benefícios que vimos na aula:
+
+### 🔄 Alta Disponibilidade
+- Está diretamente ligada ao **SLA (Service Level Agreement)**, garantindo que os recursos estejam disponíveis praticamente o tempo todo.
+- Significa menos dor de cabeça com sistemas fora do ar.
+
+### 📈 Escalabilidade
+- A capacidade de **aumentar ou diminuir recursos** conforme a necessidade.
+- Se a demanda subir, você sobe junto. Se cair, você economiza.
+
+### 📊 Elasticidade
+- Vai além da escalabilidade: aqui, os recursos se **ajustam automaticamente** em tempo real de acordo com os picos de demanda.
+- Ideal para lidar com eventos inesperados sem travar o sistema.
+
+### 🔒 Confiabilidade
+- Relacionada à **resiliência**. A nuvem permite distribuir os recursos em várias regiões do mundo, o que aumenta a tolerância a falhas.
+- Se um servidor cair em uma região, outro assume o trabalho sem você nem perceber.
+
+### 🧠 Previsibilidade
+- Permite **avançar com confiança e segurança**, já que os recursos são planejáveis e estáveis.
+- Menos surpresas desagradáveis e mais controle.
+
+### 🛡️ Segurança (responsabilidade do cliente!)
+- Apesar de o provedor oferecer ferramentas, é o **cliente quem precisa configurar e implementar as proteções** corretamente.
+- Isso inclui firewalls, autenticação, criptografia, e boas práticas em geral.
+
+---
+
+## Criação de Máquina Virtual (Azure)
+
+Aprendemos na aula como criar uma máquina virtual no portal do Azure utilizando o seguinte tutorial oficial da Microsoft:
+
+🔗 [Tutorial: Criar rapidamente uma VM com Windows no Azure Portal](https://learn.microsoft.com/pt-br/azure/virtual-machines/windows/quick-create-portal)
+
+> ⚙️ **Importante**: Para criar a máquina virtual, você precisa ter uma conta no Azure. A Microsoft oferece um plano gratuito para testes.
+
+### 🖼️ Prints do Processo (adicione aqui)
+
+1. Tela inicial do Portal do Azure  
+   ![Print 1](./img/print1.png)
+
+2. Configuração básica da VM  
+   ![Print 2](./img/print2.png)
+
+3. Seleção de imagem e tamanho  
+   ![Print 3](./img/print3.png)
+
+4. Revisão e criação  
+   ![Print 4](./img/print4.png)
+
+---
+
+
+
+
