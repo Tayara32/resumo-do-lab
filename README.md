@@ -111,6 +111,57 @@ Aprendemos na aula como criar uma máquina virtual no portal do Azure utilizando
 3. Acesso a VM  
    ![Print 3](./myVM3.png)
 
+---
+
+## Tipos de Serviço na Nuvem
+
+Quando falamos em computação na nuvem, não é só sobre onde os dados ficam — é também sobre **quem cuida do quê**. Existem três principais modelos de serviço na nuvem:
+
+### 🏗️ IaaS — Infrastructure as a Service (Infraestrutura como Serviço)
+
+- O cliente tem **mais responsabilidade e controle** sobre os recursos.
+- Você gerencia o sistema operacional, armazenamento, rede, etc.
+- **Alta capacidade de personalização**, ideal para quem quer montar o ambiente do seu jeito, desde o zero.
+- Exemplo: Criar uma máquina virtual no Azure, AWS ou Google Cloud e configurar tudo manualmente.
+
+🛠️ **Responsável por:** SO, apps, dados, runtime, middleware  
+🛡️ **O provedor cuida de:** virtualização, servidores, armazenamento físico, rede
+
+---
+
+### 🧰 PaaS — Platform as a Service (Plataforma como Serviço)
+
+- Foco total no **desenvolvimento de aplicativos**.
+- O provedor oferece um ambiente já preparado, sem você se preocupar com servidores, atualizações ou sistema operacional.
+- Ideal pra devs que só querem codar e lançar a aplicação rápido.
+
+💻 **Você gerencia:** somente os apps e dados  
+🔧 **O provedor cuida de:** infraestrutura, SO, runtime, banco, atualizações
+
+---
+
+### ☁️ SaaS — Software as a Service (Software como Serviço)
+
+- Modelo mais simples pro usuário final.
+- Tudo pronto, sem necessidade de instalação ou manutenção.
+- Pagamento por uso ou modelo de assinatura (mensal/anual).
+- Exemplo: Gmail, Microsoft 365, Google Drive, Zoom.
+
+📦 **Você só usa.** O provedor cuida de tudo: software, infraestrutura, segurança, atualizações.  
+🪑 Só sentar e usar!
+
+---
+
+| Tipo     | Gestão do Cliente | Personalização | Exemplo                       |
+|----------|-------------------|----------------|-------------------------------|
+| **IaaS** | Alta              | Alta           | VM no Azure, AWS EC2          |
+| **PaaS** | Média             | Média          | Azure App Service, Heroku     |
+| **SaaS** | Baixa             | Baixa          | Gmail, Microsoft 365, Zoom    |
+
+---
+
+
+
 
 
 
