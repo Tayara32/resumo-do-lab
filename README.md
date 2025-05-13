@@ -160,6 +160,55 @@ Quando falamos em computação na nuvem, não é só sobre onde os dados ficam �
 
 ---
 
+## Componentes Arquitetônicos do Azure
+
+Na aula de hoje, mergulhamos na estrutura por trás da mágica da Microsoft: o **Microsoft Azure**. Entender os componentes arquitetônicos é essencial pra dominar como a nuvem funciona na prática. Bora destrinchar isso:
+
+### 🌍 Regiões
+
+- Podemos criar recursos do Azure **em qualquer lugar do mundo**, escolhendo a região mais próxima do cliente.
+- **Regiões** são compostas por **um ou mais datacenters** interconectados.
+- Oferecem **baixa latência**, **alta disponibilidade**, **flexibilidade** e **escalabilidade**.
+- As regiões ajudam a **preservar a residência dos dados**, o que é crucial pra atender leis locais (como a LGPD no Brasil).
+- Para cada região principal, existe uma **região pareada**, usada para **replicação automática** e **recuperação de desastres** para alguns serviços.
+
+### 🏰 Regiões Soberanas
+
+São regiões especiais com regras diferenciadas, criadas para atender restrições governamentais ou de segurança:
+
+- **EUA Gov (US Government)** – uso militar e governamental dos Estados Unidos.
+- **China** – operada pela empresa **21Vianet**, independente da rede global da Microsoft.
+
+### 🔧 Recursos Comuns no Azure
+
+O Azure oferece vários recursos que você pode criar e gerenciar com facilidade. Alguns dos mais usados são:
+
+- **Máquinas Virtuais (VMs)** – servidores prontos pra rodar apps, sistemas e serviços.
+- **Armazenamento** – blob, arquivos, discos... tudo pra guardar dados com segurança.
+- **Redes Virtuais (VNets)** – sua rede privada na nuvem.
+- **Banco de Dados SQL (Azure SQL Database)** – banco gerenciado pra apps que precisam de persistência de dados.
+
+---
+
+## 🔐 Assinaturas e Contas
+
+Organização é tudo, e no Azure isso começa pela conta e suas assinaturas:
+
+- Uma **conta do Azure** pode conter **várias assinaturas**.
+- Cada **assinatura** representa uma **unidade de cobrança, gestão e acesso**.
+- Uma assinatura está **vinculada a uma única conta**, mas uma conta pode ter várias assinaturas para separar ambientes ou projetos.
+
+### Tipos de Assinatura
+
+1. **Desenvolvimento** – ideal pra testar coisas sem se preocupar com custos altos.
+2. **Teste** – ambiente de pré-produção, onde tudo funciona como em produção, mas sem impactar o cliente.
+3. **Produção** – onde o jogo é pra valer. Tudo em pleno funcionamento e voltado pro usuário final.
+
+---
+
+
+
+
 
 
 
