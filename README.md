@@ -206,6 +206,129 @@ Organização é tudo, e no Azure isso começa pela conta e suas assinaturas:
 
 ---
 
+## Computação e Rede no Azure
+
+Hoje mergulhamos nos **serviços de computação e rede** no Azure — uma parte essencial pra entender como os recursos da nuvem são usados, escalados e conectados. Aqui vai o resumão!
+
+---
+
+### 🖥️ Serviços de Computação
+
+São **serviços sob demanda** que fornecem recursos de computação como:
+
+- Disco
+- Processador (CPU)
+- Memória (RAM)
+- Rede
+- Sistemas Operacionais
+
+Basicamente, tudo que você teria num datacenter físico, só que virtual e escalável.
+
+---
+
+### 💻 Máquinas Virtuais (VMs)
+
+- **Modelo de IaaS** (Infrastructure as a Service)
+- Oferece **personalização total** (SO, apps, configurações)
+- Permite **controle total sobre o ambiente**
+- Suporta **balanceamento de carga** entre várias VMs para alta disponibilidade
+
+#### 🔁 Conjuntos de Disponibilidade
+Agrupamento de VMs para melhorar a resiliência do serviço:
+
+- **Domínio de atualização:** garante que nem todas as VMs sejam atualizadas ao mesmo tempo.
+- **Domínio de falha:** distribui as VMs entre hardwares físicos diferentes para evitar ponto único de falha.
+
+---
+
+### 🖥️ Área de Trabalho Virtual
+
+- Virtualização da **área de trabalho do usuário final**
+- Acesso remoto como se estivesse usando o próprio PC, sem precisar de servidores intermediários (ex: gateway)
+- Reduz risco de deixar recursos críticos de fora
+- Suporta implantações com múltiplas sessões
+- Ambiente é criado de forma **personalizada** conforme a necessidade
+
+---
+
+### 📦 Serviços de Contêiner
+
+Contêineres são ambientes leves, **isolados**, que rodam aplicativos sem necessidade de gerenciar o sistema operacional inteiro.
+
+- **Instâncias de Contêiner**: inicializam rápido e sob demanda. São ideais pra cargas temporárias.
+- **Aplicativos de Contêiner**: permitem criar, escalar e balancear apps de forma mais estruturada. Oferta de **PaaS**.
+- **Kubernetes (AKS - Azure Kubernetes Service)**: ferramenta de **orquestração** que gerencia o ciclo de vida dos contêineres (criação, escalonamento, atualização, etc.)
+
+---
+
+### ⚡ Azure Functions
+
+- Serviço **PaaS** para **computação sem servidor (serverless)**
+- Roda **funções baseadas em eventos** (ex: sempre que um arquivo é enviado, uma função é executada)
+- Você paga só pelo tempo de execução
+- Ideal para automações, integração e lógica leve de backend
+
+---
+
+### 🌐 Serviços de Aplicativos (App Services)
+
+- Plataforma PaaS **totalmente gerenciada**
+- Serve para **criar, implantar e escalar aplicações web e APIs**
+- Suporta várias linguagens: **.NET, .NET Core, Node.js, Java, Python, PHP**
+- Ideal pra quem quer focar no código e deixar o resto pro Azure
+
+---
+
+## 🌐 Serviços de Rede
+
+### VNet (Virtual Network)
+
+- Permite que recursos do Azure **se comuniquem entre si**, com a internet ou com sua rede local.
+- Funciona como uma "rede privada virtual" dentro do Azure.
+
+### 🔗 Emparelhamento de Redes
+
+- Conecta duas VNets diferentes para que troquem informações de forma segura e rápida — mesmo estando em regiões diferentes.
+
+### 🛡️ Gateway de VPN
+
+- Usado para **enviar tráfego criptografado** entre:
+  - uma rede virtual no Azure
+  - e uma rede local (física)
+- Usa a **internet pública**, mas com **segurança reforçada** via criptografia.
+
+### 📛 DNS (Domain Name System)
+
+- Serviço que **resolve nomes de domínio para endereços IP**.
+- Exemplo: transforma `www.sitelegal.com` em `192.168.0.1`
+- Essencial para rotear tráfego de forma eficiente e amigável para o usuário.
+
+---
+
+### ✅ Explicações Extras (pra deixar tudo redondo):
+
+- **Contêiner ≠ Máquina Virtual**: contêineres compartilham o SO do host, são mais leves e rápidos. VMs são mais pesadas, mas dão mais controle.
+- **Serverless ≠ Sem Servidor**: o servidor existe, mas você não precisa se preocupar com ele. O Azure cuida de tudo.
+- **Domínio de atualização x falha**: atualização = software; falha = hardware.
+
+---
+
+### 🚄 ExpressRoute
+
+- Serviço que permite uma **conexão privada e dedicada** entre sua rede local (on-premises) e o Azure.
+- **Não usa a internet pública**, o que significa:
+  - **Mais segurança**
+  - **Menor latência**
+  - **Mais confiabilidade**
+- Ideal pra empresas que precisam mover grandes volumes de dados ou ter conexões críticas e estáveis com a nuvem.
+- Pode se conectar a qualquer região do Azure globalmente com redundância.
+
+🧠 **Resumo mental**: se a **VPN Gateway** é uma estrada segura passando pela internet, o **ExpressRoute** é um **trem-bala direto**, exclusivo, rápido e blindado.
+
+---
+
+
+
 
 
 
